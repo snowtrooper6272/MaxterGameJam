@@ -25,10 +25,10 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Interact",
+                    "name": "PickUp",
                     "type": "Button",
                     "id": "852140f2-7766-474d-8707-702459ba45f3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Hold",
                     "initialStateCheck": false
@@ -46,7 +46,7 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "f1ba0d36-48eb-4cd5-b651-1c94a6531f70",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -55,7 +55,7 @@
                     "name": "Previous",
                     "type": "Button",
                     "id": "2776c80d-3c14-4091-8c56-d04ced07a2b0",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -88,9 +88,18 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Drop",
+                    "type": "Button",
+                    "id": "eda37efc-b54c-4bb5-b965-cdc6252ac0b8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Look",
                     "type": "Value",
-                    "id": "b39b42ff-66bb-40b0-b914-9835e290948d",
+                    "id": "4e841b9e-0a45-42aa-8e49-4c8c98aae9a3",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -424,7 +433,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Interact",
+                    "action": "PickUp",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -435,7 +444,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Interact",
+                    "action": "PickUp",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -463,7 +472,18 @@
                 },
                 {
                     "name": "",
-                    "id": "995d9b12-ef9a-4a45-bd04-60802066b78b",
+                    "id": "b986c40f-698d-4c14-82d5-0a2996520ec1",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8148ed95-46a7-4429-a8b7-ea276b479e08",
                     "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
